@@ -87,7 +87,6 @@ def search_with_pit(pit_id):
                 batch_count += 1
             else:
                 print(f"Error during search: {response.status_code}, {response.text}")
-                outfile.close()
                 break
 
     outfile.close()
