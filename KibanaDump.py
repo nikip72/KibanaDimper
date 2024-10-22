@@ -89,8 +89,6 @@ def search_with_pit(pit_id):
                 print(f"Error during search: {response.status_code}, {response.text}")
                 break
 
-    outfile.close()
-
 # Function to close the PIT
 def close_pit(pit_id):
     print("Closing Point In Time (PIT)...")
